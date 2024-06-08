@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: Inter;
+  src: url("./../../assets/Inter-Regular.ttf");
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Inter, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: var(--background-color);
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+}
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+::-webkit-scrollbar-thumb{
+  background: #cccccc9f;
+  border-radius: 20px;
+}
+
+
+body.dark-mode {
+  background-color: #141414;
+  color: white;
+}
+
+body.dark-mode .general-app-setting h2{
+  color: #dadada;
+}
+body.dark-mode .general-account-setting h2{
+  color: #dadada;
+}
+body.dark-mode .sidebar{
+     background-color: rgb(38, 38, 38);
+     color:#dadada
+}
+body.dark-mode .settings-right{
+    background-color: #1e1e1e;
+    color:#dadada
+}
+body.dark-mode .general-app-setting p{
+   color: #b3b3a5;
+}
+body.dark-mode .general-account-setting p{
+  color:#b3b3a5;
+}
+body.dark-mode .settings-left{
+  box-shadow: none;
+}
+body.dark-mode .handleOnOff button:hover{
+  background-color: #343434;
+}
+body.dark-mode #dropdownDefaultButton{
+  border: #0d0a0a;
+  background-color: #343434;
+  color: white;
+}
+body.dark-mode #dropdown{
+  background-color: #161616;
+  color:white;
+}
+body.dark-mode #languages{
+  background-color: #3f3f3f;
+  color: white;
+}
+body.dark-mode #languages:hover{
+  background-color: #4b4848;
+}
+body.dark-mode #button-general{
+  border: #0d0a0a;
+  background-color: #343434;
+  color:white;
+}
