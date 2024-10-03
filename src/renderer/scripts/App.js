@@ -14,6 +14,8 @@ import Appearance from "./components/Appearance";
 import CorePlugins from "./components/CorePlugins";
 import CommunityPlugins from "./components/CommunityPlugins"; 
 import '../styles/index.css';
+import '../styles/general.css'
+
 
 function App() {
   const [isSettingsVisible, setIsSettingsVisible] = useState(true);
@@ -24,20 +26,20 @@ function App() {
 
   return (
     <Router>
-      <div className="h-screen">
+      <div className="setting-page h-screen">
         <div
-          className={`settings-left overflow-x-hidden overflow-y-hidden border  border-gray-400  flex opacity w-5/6 shadow-neutral-400 shadow-2xl rounded-xl h-5/6 translate-x-24 translate-y-12 items-start ${
-            isSettingsVisible ? "" : "hidden"
+          className={`settings-page-container ${
+            isSettingsVisible ? "" : "settings-page-container-hidden"
           }`}
         >
-          <div className="sidebar bg-stone-50 w-60 sidebar overflow-y-scroll h-full text-black border-r border-gray-200  p-4">
+          <div className="setting-page-sidebar">
             <Sidebar />
           </div>
-          <div className="settings-right h-full px-9 overflow-y-auto w-5/6">
-            <div className="handleOnOff absolute top-2 right-2">
+          <div className="settings-page-right ">
+            <div className="setting-handleOnOff">
               <button
                 onClick={handleOpenClose}
-                className="h-7 w-7 hover:bg-neutral-200 rounded-md"
+                className="setting-handleOnOff-btn"
               >
                 ✕
               </button>

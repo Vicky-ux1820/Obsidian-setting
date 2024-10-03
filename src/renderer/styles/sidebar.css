@@ -1,0 +1,61 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.sidebar-option-container{
+    padding: 0.25rem;
+    padding-top: 1.25rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-option-header{
+font-weight: 600;
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 4px;
+padding-bottom: 4px;
+color: #6b7280;
+}
+.option-link{
+    width: 100%;
+    border-radius: 0.375rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-decoration: none;
+    color: black;
+}
+.option-link.active{
+    background-color: #3b82f6;
+    color: #ffff;
+}
+.sidebar-core-plugins{
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    height: 12.5rem;
+}
+.sidebar-plugins-header{
+    font-weight: 600;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    color: #6b7280;
+}
+.core-plugins-link{
+width: 100%;
+border-radius: 0.375rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+padding-top: 0.25rem;
+padding-bottom: 0.25rem;
+text-decoration: none;
+color: black;
+transition: background-color 0.15s ease-in-out;
+}
+

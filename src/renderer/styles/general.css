@@ -1,0 +1,137 @@
+.general-setting-container{
+    display: flex;
+    flex-direction: column;
+}
+.general-app-setting{
+width: 100%;
+padding-top: 2.5rem;
+height: fit-content;
+}
+.general-app-setting>h2{
+color: black;
+font-weight: 600;
+}
+
+.general-app-settings-divs{
+    margin-top: 8px;
+    width: full;
+    height: fit-content;
+}
+.general-app-element-updates{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #d1d5db;
+}
+.general-left{
+    width: 50%;
+    height: full;
+}
+.general-left-text{
+    font-size: 12px;
+    line-height: 16px;
+    color: #525252;
+    padding-top: 4px;
+}
+.general-right{
+    width: 50%;
+    height: full;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px;
+}
+.general-right-btn{
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+    outline: none;
+    border:none;
+    background-color: #3b82f6;
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+}
+.general-right-btn:hover{
+    background-color: #2e6de6;
+    transition: background-color 0.15s ease-in-out;
+}
+.general-app-element-theme{
+    margin-top: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #d1d5db;
+}
+.general-app-element-lang{
+    margin-top: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #d1d5db;
+}
+.general-app-element-help{
+    margin-top: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #d1d5db;
+}
+.general-right-btn-gray{
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    outline: none;
+    background-color: #f8f8f8;
+    border-radius: 0.375rem;
+    border:1px solid #d1d5db;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+}
+.general-right-btn-gray:hover{
+    background-color: #d1d5db;
+}
+.general-account-setting{
+    width: 100%;
+    padding-top: 2.5rem;
+    height: fit-content;
+}
+.general-account-setting-header{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.general-account-element-account{
+    margin-top: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #d1d5db;
+}
+.general-account-element-license{
+    margin-top: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #d1d5db;
+}
